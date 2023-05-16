@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Account Explorer</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+        }
+        .search-bar {
+            margin: 20px 0;
+        }
+        .search-bar input {
+            width: 100%;
+            padding: 10px;
+            color: #121212;
+        }
+        .details {
+            margin-bottom: 20px;
+        }
+        .data {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="search-bar">
+            <input type="text" placeholder="Search by address" />
+        </div>
+        <div class="details">
+            <h2>Address Details</h2>
+            <p class="data">Address: <span id="address">address placeholder</span></p>
+            <p class="data">Herotag: <span id="herotag">herotag placeholder</span></p>
+        </div>
+        <div>
+            <p class="data">Balance: <span id="balance">placeholder_value EGLD</span></p>
+            <p class="data">Stake: <span id="stake">placeholder_value EGLD</span></p>
+            <p class="data">Value: <span id="value">$ placeholder_value</span></p>
+            <p class="data">Transactions: <span id="transactions">placeholder_number_transactions</span></p>
+            <p class="data">Tokens: <span id="tokens">Placeholder_number_tokens</span></p>
+            <p class="data">NFTs: <span id="nfts">placeholder_number_nft</span></p>
+            <p class="data">Shard: <span id="shard">placeholder shard number</span></p>
+        </div>
+    </div>
+</body>
+</html>
+
