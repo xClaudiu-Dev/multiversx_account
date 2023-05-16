@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# If you have databases in your project:
+*.db
+*.sqlite3
+
+# Flask file (the environment variables)
+.env
+
+# The directory where your virtual environment resides:
+venv/
+env/
